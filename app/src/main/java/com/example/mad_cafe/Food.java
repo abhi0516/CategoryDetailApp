@@ -11,8 +11,10 @@ public class Food implements Parcelable {
 
 
     public static final Food[] myDinner = {
-            new Food("Fettucine Alfredo", 6.99, "4 pancakes", R.drawable.pancakes),
-            new Food("Waffles", 7.50, "Crispy Golden Brown", R.drawable.waffles)
+            new Food("Fettucine Alfredo", 6.99, "4 pancakes", R.drawable.fettucine_alfredo),
+            new Food("Waffles", 7.50, "Crispy Golden Brown", R.drawable.fets_pasta),
+            new Food("Fettucine Alfredo", 6.99, "4 pancakes", R.drawable.fettucine_alfredo),
+
     };
 
     //used code -> generate -> constructor
