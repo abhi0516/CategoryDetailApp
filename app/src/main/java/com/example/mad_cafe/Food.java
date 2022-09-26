@@ -11,10 +11,15 @@ public class Food implements Parcelable {
 
 
     public static final Food[] myDinner = {
-            new Food("Fettucine Alfredo", 6.99, "4 pancakes", R.drawable.fettucine_alfredo),
-            new Food("Waffles", 7.50, "Crispy Golden Brown", R.drawable.fets_pasta),
-            new Food("Fettucine Alfredo", 6.99, "4 pancakes", R.drawable.fettucine_alfredo),
-
+            new Food("Fettucine Alfredo", 13.99, "pasta dish made from fettuccine " +
+                    "pasta tossed with Parmesan cheese and butter", R.drawable.fettucine_alfredo),
+            new Food("Pene Alla Vodka", 15.99, "tender penne pasta tossed in a rich" +
+                    " and delicious tomato, vodka and cream sauce, all topped with parmesan " +
+                    "cheese", R.drawable.vodka_pasta),
+            new Food("Spaghetti Arrabiata", 12.99, "Pasta Arrabiata literally" +
+                    " means \"angry pasta\" in Italian. Arrabiata sauce (sugo all'arrabbiata) is " +
+                    "a spicy (angry) tomato sauce that's made with plenty of olive oil, garlic, " +
+                    "chopped tomatoes, and red pepper flakes to provide the heat. ", R.drawable.spaghetti),
     };
 
     //used code -> generate -> constructor
