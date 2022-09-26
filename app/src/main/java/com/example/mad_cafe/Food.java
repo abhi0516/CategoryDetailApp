@@ -10,16 +10,41 @@ public class Food implements Parcelable {
     private int imageResourceID;
 
 
-    public static final Food[] myDinner = {
-            new Food("Fettucine Alfredo", 13.99, "pasta dish made from fettuccine " +
-                    "pasta tossed with Parmesan cheese and butter", R.drawable.fettucine_alfredo),
-            new Food("Pene Alla Vodka", 15.99, "tender penne pasta tossed in a rich" +
-                    " and delicious tomato, vodka and cream sauce, all topped with parmesan " +
-                    "cheese", R.drawable.vodka_pasta),
-            new Food("Spaghetti Arrabiata", 12.99, "Pasta Arrabiata literally" +
-                    " means \"angry pasta\" in Italian. Arrabiata sauce (sugo all'arrabbiata) is " +
-                    "a spicy (angry) tomato sauce that's made with plenty of olive oil, garlic, " +
-                    "chopped tomatoes, and red pepper flakes to provide the heat. ", R.drawable.spaghetti),
+    public static final Food[] myIceCream = {
+            new Food("Strawberry Ice Cream", 7.99, "Ripe, juicy strawberries " +
+                    "are pureed then woven throughout our classic strawberry ice cream, " +
+                    "transporting you to a summer day, no matter the weather.",
+                    R.drawable.strawberry_ice_cream),
+            new Food("Vanilla Ice Cream", 7.99, "fresh cream, sugar, and " +
+                    "pure Madagascar bourbon vanilla", R.drawable.vanilla_ice_cream),
+            new Food("Cookies N' Cream", 7.99, "Copious chocolatey cookie crumbles" +
+                    " combined with farm fresh cream, produced in small batches. " +
+                    "Simply satisfying in every way.", R.drawable.cookies_and_cream_ice_cream),
+    };
+
+    public static final Food[] mySmoothies = {
+            new Food("Mango Smoothie", 6.99, " Enjoy refreshing, tropical mango" +
+                    " in this all-natural fruit smoothie blended with ice. It’s an indulgence" +
+                    " you can feel good about.", R.drawable.mango_smoothie),
+            new Food("Raspberry Smoothie", 6.99, "Healthy and extremely flavorful," +
+                    " this raspberry smoothie is the perfect blend of sweet tart flavor and has " +
+                    "the most vibrant color!", R.drawable.raspberry_smoothie),
+            new Food("Blueberry Smoothie", 6.99, "This creamy and refreshing" +
+                    " blueberry smoothie is made with juice, yogurt, frozen blueberries and banana," +
+                    " all blended together into a frosty drink.", R.drawable.blueberry_smoothie),
+    };
+
+    public static final Food[] myShakes = {
+            new Food("Banana Shake", 7.99, " Made with our super premium ice " +
+                    "cream, our farm fresh milk and a fresh banana. Garnished with whipped " +
+                    "cream and a Pirouline cookie.", R.drawable.banana_milkshake),
+            new Food("Chocolate Shake", 7.99, "Made with our super premium ice" +
+                    " cream, our farm fresh milk and chocolate syrup. Garnished with whipped cream" +
+                    " and a Pirouline cookie.", R.drawable.chocolate_shake),
+            new Food("Strawberry Shortcake Shake", 7.99, "Generous slices of " +
+                    "shortcake are blended with ice cream, strawberries and farm fresh milk--then " +
+                    "topped with our signature whipped cream and Pirouline " +
+                    "cookie.", R.drawable.shakes_cakestrawberry),
     };
 
     //used code -> generate -> constructor
