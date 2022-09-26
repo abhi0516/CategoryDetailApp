@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">Yummy Pasta</string>
+    <string name="app_name">Scoops of Delight</string>
+
+    <string-array name="options">
+        <item>Ice Cream</item>
+        <item>Shakes</item>
+        <item>Smoothies</item>
+    </string-array>
+
 </resources>
