@@ -24,18 +24,6 @@
         <item name="android:textSize">@dimen/fontSize</item>
     </style>
 
-    <style name="EditTextCustom" parent="android:style/Widget.EditText">
-        <item name="android:background">@color/colorTint</item>
-        <item name="android:textColor">@color/colorGrey</item>
-        <item name="android:padding">@dimen/editTextPadding</item>
-        <item name="android:layout_width">@dimen/editTextWidth</item>
-        <item name="android:layout_height">@dimen/editTextHeight</item>
-    </style>
-
-    <style name="TextViewCustom">
-        <item name="android:textColor">@color/colorPrimaryDarkPink</item>
-        <item name="android:textSize">36sp</item>
-    </style>
 
 
 </resources>
