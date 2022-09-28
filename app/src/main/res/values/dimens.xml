@@ -4,5 +4,7 @@
     <dimen name="fontTitle">40sp</dimen>
     <dimen name="fontRegular">25sp</dimen>
     <dimen name="rowHeight">100dp</dimen>
+    <dimen name="myMarginTopBottom">10dp</dimen>
+
 
 </resources>

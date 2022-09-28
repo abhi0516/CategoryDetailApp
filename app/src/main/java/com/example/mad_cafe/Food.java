@@ -12,10 +12,10 @@ public class Food implements Parcelable {
 
     public static final Food[] myIceCream = {
             new Food("Strawberry Ice Cream", 7.99, "Ripe, juicy strawberries " +
-                    "are pureed then woven throughout our classic strawberry ice cream, " +
-                    "transporting you to a summer day, no matter the weather.",
+                    "are pureed then woven throughout our classic strawberry ice cream",
                     R.drawable.strawberry_ice_cream),
-            new Food("Vanilla Ice Cream", 7.99, "fresh cream, sugar, and " +
+            new Food("Vanilla Ice Cream", 7.99, "Our customers’ top choice, " +
+                    "producing small batches using fresh cream, sugar, and " +
                     "pure Madagascar bourbon vanilla", R.drawable.vanilla_ice_cream),
             new Food("Cookies N' Cream", 7.99, "Copious chocolatey cookie crumbles" +
                     " combined with farm fresh cream, produced in small batches. " +
