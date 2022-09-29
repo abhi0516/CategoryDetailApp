@@ -9,11 +9,14 @@
     <color name="white">#FFFFFFFF</color>
 
     <!-- Colors for Blue mode -->
-    <color name="primaryColor">#80deea</color>
-    <color name="primaryLightColor">#b4ffff</color>
-    <color name="primaryDarkColor">#4bacb8</color>
-    <color name="secondaryColor">#b3e5fc</color>
-    <color name="colorTint">#e6ffff</color>
-    <color name="secondaryDarkColor">#82b3c9</color>
+    <color name="primaryColor">#90caf9</color>
+    <color name="primaryLightColor">#c3fdff</color>
+    <color name="primaryDarkColor">#5d99c6</color>
+    <color name="secondaryColor">#039be5</color>
+    <color name="secondaryLightColor">#63ccff</color>
+    <color name="secondaryDarkColor">#006db3</color>
     <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#000000</color>
+    <color name="backgroundColor">#e3f2fd</color>
+
 </resources>

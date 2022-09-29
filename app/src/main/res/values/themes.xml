@@ -14,14 +14,18 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="Theme.BlueMode" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.BlueMode" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <item name="colorPrimary">@color/primaryColor</item>
         <item name="colorPrimaryDark">@color/primaryDarkColor</item>
         <item name="colorAccent">@color/secondaryDarkColor</item>
         <item name="colorSecondary">@color/secondaryColor</item>
         <item name="android:textColor">@color/primaryTextColor</item>
-        <item name="colorPrimaryVariant">@color/colorTint</item>
-        <item name="android:textSize">@dimen/fontSize</item>
+        <item name="android:fontFamily">@font/alata</item>
+    </style>
+
+    <style name="TextViewCustom">
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textSize">36sp</item>
     </style>
 
 

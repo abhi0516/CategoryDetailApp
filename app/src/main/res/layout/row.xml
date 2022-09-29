@@ -23,7 +23,7 @@
         android:layout_height="53dp"
         android:text="Description"
         android:textColor="@color/primaryTextColor"
-        android:textSize="14dp"
+        android:textSize="12.5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.256"
